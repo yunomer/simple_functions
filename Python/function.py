@@ -1,6 +1,8 @@
 # Q2: Write Python code to create a dictionary for the same 
 # information above and convert it to JSON
 
+# Run this in your terminal by going to your directory and: python3 function.py
+
 # importing JSON package
 import json 
 
@@ -18,6 +20,6 @@ personDict = {
 localPerson = json.dumps(personDict)
 
 # Printing JSON as string
-print(localPerson)
+print('Stored Data: ', localPerson)
 
 
